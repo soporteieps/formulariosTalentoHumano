@@ -165,7 +165,8 @@ function validarObligatorio(fechainicio,fechafin,horainicio,horafin,motivo,archi
 	}
 	
  	//if(archivo=="" && ( motivo==1 || motivo==3 || motivo==4 || motivo==5 || motivo==6 || motivo==7|| motivo==8))
-	if(archivo=="" && ( motivo==3 || motivo==4 || motivo==5 || motivo==6 || motivo==7|| motivo==8))
+ 	//alert("**************motivo="+motivo+"************"); 
+	if(archivo=="" && ( motivo==1 || motivo==3 || motivo==4 || motivo==5 || motivo==6 || motivo==7|| motivo==8))
 	{
 		alert("Archivo es obligatorio.");
 		boolExit = false;
