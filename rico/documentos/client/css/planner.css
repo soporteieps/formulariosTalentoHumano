@@ -1,0 +1,50 @@
+ 
+
+
+
+#planner_Dias{
+	width:1000px;
+	}
+
+
+#planner_top{
+	background-color:buttonface;
+	height:40px;
+	border-bottom:1px solid #ACA899;
+	
+	
+
+}
+
+#div_espacio{
+	height:34px;
+	
+}
+.div_AMPM,#div_espacio{
+	border-bottom:1px solid #ACA899;
+}
+
+
+#divG {
+	border:1px solid #000;
+	position:relative;
+	top:60px;
+	float:left;
+	left:20px;
+	
+}
+#divSitios {
+	position:relative;
+	overflow:visible;
+	border:1px solid #000;
+	top:60px;
+	left:5px;
+	float:left;
+	width:200px;
+	height:200px;
+   font-family      : Verdana;
+   font-size        : 10px;
+  	
+   text-shadow:#FF0;
+}
+

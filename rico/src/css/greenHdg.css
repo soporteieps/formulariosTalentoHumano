@@ -1,0 +1,18 @@
+/* display grid headings with a green background */
+
+tr.ricoLG_hdg .ricoLG_cell, tr.ricoLG_hdg th, tr.ricoLG_hdg td {  /* td/th required for IE */
+  background-color : #73CE85;
+  color            : #ffffff;
+  font-weight      : bold;
+  text-align       : center;
+}
+div.ricoLG_selection {
+  background-color: #73CE85;
+}
+div.ricoWindow .ricoTitle  {
+  background-color: #73CE85;
+  color: black;
+}
+tr.ricoLG_hdg div.hover, table.ricoLiveGrid thead td, table.ricoLiveGrid thead th {
+  background-color: #73CE85 !important;
+}
